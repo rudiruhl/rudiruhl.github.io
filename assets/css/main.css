@@ -1,0 +1,44 @@
+pre, code {
+    font-family: Hack, monospace;
+}
+
+body {
+    background-color: #FEFFEA;
+}
+
+#wrapper {
+    max-width: 940px;
+    position: relative;
+    margin: 100px auto;
+}
+.main {
+  position: relative;
+  margin: o auto;
+}
+
+h1 {
+    font-family: monospace;
+    color: #37392E;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 1.500em;
+    color: #EA2B1F;
+}
+
+h3 {
+    font-family: monospace;
+    color: #37392E;
+}
+
+p {
+    font-family: monospace;
+    font-size: 1.000em;
+}
+a {
+  font-family: monospace;
+  text-decoration: underline;
+  color: #37392E;
+  
+}

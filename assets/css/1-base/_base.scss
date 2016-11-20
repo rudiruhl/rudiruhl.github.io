@@ -1,0 +1,49 @@
+//colors
+$color_apricot_white_approx: #feffea;
+$color_dune_approx: #37392e;
+$color_alizarin_crimson_approx: #ea2b1f;
+
+//fonts
+$font_0: Hack;
+$font_1: monospace;
+
+pre {
+	font-family: $font_0, $font_1;
+}
+code {
+	font-family: $font_0, $font_1;
+}
+body {
+	@include linear-gradient(to right, #ECE9E6, #FFFFFF);
+}
+#wrapper {
+	max-width: 940px;
+	position: relative;
+	margin: 100px auto;
+}
+.main {
+	position: relative;
+	margin: o auto;
+}
+h1 {
+	font-family: $font_1;
+	color: $color_dune_approx;
+}
+h2 {
+	font-family: $font_1;
+	font-size: 1.500em;
+	color: $color_alizarin_crimson_approx;
+}
+h3 {
+	font-family: $font_1;
+	color: $color_dune_approx;
+}
+p {
+	font-family: $font_1;
+	font-size: 1.000em;
+}
+a {
+	font-family: $font_1;
+	text-decoration: underline;
+	color: $color_dune_approx;
+}
